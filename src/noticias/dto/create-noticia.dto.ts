@@ -15,5 +15,9 @@ export class CreateNoticiaDto {
 
   @IsString()
   @IsOptional()
+  autor?: string;
+
+  @IsString()
+  @IsOptional()
   imagen?: string;
 }

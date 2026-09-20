@@ -24,4 +24,7 @@ export class Noticia {
 
   @CreateDateColumn()
   fechaCreacion!: Date;
+
+  @Column({ nullable: true })
+  autor?: string;
 }
